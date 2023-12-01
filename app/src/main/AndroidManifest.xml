@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Azeites"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".telaCliente.TelaClientePrincipal"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaCliente.TelaClienteInserir"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaCliente.TelaClienteAtualizar"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaCliente.TelaClienteMostrar"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaProduto.TelaProdutoPrincipal"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaProduto.TelaProdutoInserir"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaProduto.TelaProdutoAtualizar"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaProduto.TelaProdutoMostrar"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaPedido.TelaPedidoPrincipal"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaPedido.TelaPedidoInserir"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaPedido.TelaPedidoAtualizar"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+
+        <activity
+            android:name=".telaPedido.TelaPedidoMostrar"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Azeites">
+        </activity>
+    </application>
+
+</manifest>

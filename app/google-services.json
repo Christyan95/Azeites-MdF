@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "155145507452",
+    "firebase_url": "https://azeitesmdf-default-rtdb.firebaseio.com",
+    "project_id": "azeitesmdf",
+    "storage_bucket": "azeitesmdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155145507452:android:f40176fdf24369fe5daff9",
+        "android_client_info": {
+          "package_name": "com.example.azeites"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx4fSXX4mYIjQWYhtxJRr7mSMKVyqYHJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
